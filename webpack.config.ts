@@ -251,7 +251,11 @@ function parse_configuration(entry: Entry): (_env: any, argv: any) => webpack.Co
             },
           ].concat(
             entry.html === undefined
+<<<<<<< HEAD
               ? <any[]>[
+=======
+              ? [
+>>>>>>> 4dd206c0dc4e487a36681a4080d0394c48b95fc5
                   {
                     test: /\.vue\.s(a|c)ss$/,
                     use: [
@@ -286,8 +290,13 @@ function parse_configuration(entry: Entry): (_env: any, argv: any) => webpack.Co
                     use: ['style-loader', { loader: 'css-loader', options: { url: false } }, 'postcss-loader'],
                     exclude: /node_modules/,
                   },
+<<<<<<< HEAD
                 ]
               : <any[]>[
+=======
+                ] as any[]
+              : [
+>>>>>>> 4dd206c0dc4e487a36681a4080d0394c48b95fc5
                   {
                     test: /\.s(a|c)ss$/,
                     use: [
@@ -307,7 +316,11 @@ function parse_configuration(entry: Entry): (_env: any, argv: any) => webpack.Co
                     ],
                     exclude: /node_modules/,
                   },
+<<<<<<< HEAD
                 ],
+=======
+                ] as any[],
+>>>>>>> 4dd206c0dc4e487a36681a4080d0394c48b95fc5
           ),
         },
       ],
