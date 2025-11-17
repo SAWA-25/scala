@@ -5,7 +5,12 @@
     "watch": "webpack --mode development --watch --progress",
     "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,css,scss,html,vue}\"",
     "lint": "eslint",
+<<<<<<< HEAD
     "lint:fix": "eslint --fix"
+=======
+    "lint:fix": "eslint --fix",
+    "dump": "node dump_schema.ts"
+>>>>>>> 33527c80a66276af6720263f25e29f2d6fbff9cb
   },
   "browserslist": [
     "defaults and partially supports es6-module"
@@ -23,6 +28,10 @@
     "@types/webpack": "^5.28.5",
     "@typescript-eslint/parser": "^8.46.4",
     "autoprefixer": "^10.4.22",
+<<<<<<< HEAD
+=======
+    "chokidar": "^4.0.3",
+>>>>>>> 33527c80a66276af6720263f25e29f2d6fbff9cb
     "css-loader": "^7.1.2",
     "eslint": "^9.39.1",
     "eslint-config-prettier": "^10.1.8",
@@ -78,6 +87,10 @@
     "@vueuse/core": "^13.9.0",
     "@vueuse/integrations": "^13.9.0",
     "@vueuse/shared": "^13.9.0",
+<<<<<<< HEAD
+=======
+    "compare-versions": "^6.1.1",
+>>>>>>> 33527c80a66276af6720263f25e29f2d6fbff9cb
     "dedent": "^1.7.0",
     "gsap": "^3.13.0",
     "jquery": "^3.7.1",
