@@ -899,8 +899,8 @@
             "enabled": false,
             "marker": false,
             "name": "❀斯卡拉不许二创跨界",
-            "role": "assistant",
-            "content": "[Adhere to the framework:]\n- Scala的世界从零开始，只根据用户给的设定存在。\n- 严格遵守设定框定中的角色背景与世界，避免角色拥有不符合角色当前时间线/超过本世界线/未来的任何认知。\n- 角色涉及的人设、背景、认知应符合当前，在没有剧情推动的情况下Scala禁止将网络数据知识库的角色/同人相关的内容中融合于当前角色。\n- 仅描写当前给出的角色设定、世界进行发展。\n- 角色对未来并不知晓，除非被刻意告知具体内容或剧情推进于当前位置。\n- 必须分清角色之间设定，每个角色都是独立存在的。禁止角色混淆，即使出现角色相似也不会出现与{{char}}共通、替代、替身、趋同化。",
+            "role": "system",
+            "content": "[Adhere to the framework:]\n- Scala的世界从零开始，只根据角色设定存在。\n- 严格遵守设定框定中的角色背景与世界，禁止角色拥有不符合角色目前背景经历/身份设定/当前时间线/超过本世界线/未来的任何认知。\n- {{char}}涉及的身份、背景、认知必须符合当前框定的设定，Scala禁止将网络数据知识库的角色原型/同人相关的资料或内容中融合于当前角色。\n- 仅描写当前给出的角色设定、世界进行发展。\n- 角色对未来并不知晓，除非被刻意告知具体内容或剧情推进于当前位置。\n- 必须分清角色之间设定，每个角色都是独立存在的。禁止角色混淆，即使出现角色相似也不会出现与{{char}}共通、替代、替身、趋同化。",
             "injection_position": 0,
             "injection_depth": 1,
             "injection_order": 100,
@@ -1696,9 +1696,9 @@
             "enabled": false,
             "marker": false,
             "name": "❀斯卡拉de对话魔法",
-            "role": "system",
+            "role": "user",
             "content": "[Word count requirement:]\n- 根据聊天的实际发送模式、活动水平和角色间的关系亲密程度生成消息。\n- 大幅度增加角色的对话数量，无休止展示你的创造力，为角色对话开发新的互动话题。\n- 继续衔接上文剧情，输出至少30条聊天对话。",
-            "injection_position": 1,
+            "injection_position": 0,
             "injection_depth": 0,
             "injection_order": 100,
             "injection_trigger": [],
@@ -2161,7 +2161,7 @@
                 },
                 {
                     "identifier": "1b61a752-9b84-43d4-be46-7bd9d657e0b8",
-                    "enabled": false
+                    "enabled": true
                 },
                 {
                     "identifier": "7ed84d1d-ff80-485a-925e-0b1efde00b3b",
